@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="asset/css/bootstrap.min.css"> <!-- Load Bootstrap -->
+    <link rel="stylesheet" href="asset/css/all.min.css"> <!-- Load Font Awesome CSS -->
+    <title>Toko Mas</title>
+
+    <style>
+        /* .row{
+            color: rgba(73, 73, 73, 0.404);
+        } */
+
+        .icon-grey{
+            font-size: 2rem;
+            padding: 3px 10px;
+        }
+
+        .icon-grey a{
+            color: rgb(53, 53, 53);
+        }
+        a:hover{
+            text-decoration: none;
+        }
+
+        a{
+            color: rgb(36, 36, 35);
+        }
+
+        a:hover{
+            color: rgba(0, 0, 255, 0.589) !important;
+        }
+
+        .scheme a{
+            color: rgb(36, 36, 35);
+        }
+        .scheme a:hover{
+                color: rgba(0, 0, 255, 0.589) !important;
+        }
+
+        .rating li{
+            list-style: none;
+            display: inline-block;
+        }
+
+        .rating li i{
+            color: orange;
+        }
+
+        
+    </style>
+</head>
+<body>
+
+
+    <!-- Header Element -->
+
+    <header>
+
+    <!-- TOP header -->
+
+    <section class="top-header mt-3">
+        
+        <div class="container">
+
+            <div class="row">
+
+                <!-- Logo -->
+                
+                <div class="col-1">
+                    <a href="#">
+                        <img src="asset/images/gs-2.png" width="48" height="48">
+                    </a> 
+                </div>
+
+                <!-- Search Bar -->
+                
+                <div class="col-sm-6">
+                    <form action="#" class="search">
+                        <div class="input-group w-100">
+                            <input type="text" class="form-control" placeholder="Search">
+                            <div class="input-group-append">
+                                <button class="btn btn-secondary" type="submit">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- Account Bar -->
+
+                <div class="col-5">
+
+                    <div class="container d-flex justify-content-end">
+                        <div class="row">
+                            <div class="col-4-auto">
+                                 <span class="icon-grey m-1"><a href="#"><i class="fa fa-shopping-cart"></i></a></span>
+                            </div>
+
+                            <div class="col-4-auto">
+                                <span class="icon-grey m-1"><a href="#" ><i class="fa fa-user"> </i></a></span>
+                            </div>
+
+                            <div class="col-4-auto">
+                                <span class="text-muted">Welcome!</span>
+                                <div class="scheme">
+                                    <a href="#" >Sign in</a> |
+                                    <a href="#"> Register</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+           
+                </div>
+
+            </div> 
+        </div> 
+    </section>
+
+    <!-- Navigation Header -->
+    
+    <nav class="navbar navbar-main navbar-expand-lg navbar-light border-bottom">
+
+        <div class="container">
+
+            <!-- Navigation Button -->
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav"
+            aria-controls="main_nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <!-- Navigation Content -->
+
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link pl-0" data-toggle="dropdown" href="#"><strong> <i class="fa fa-bars"></i> &nbsp
+                            Semua Kategori</strong></a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Emas 12 Karat</a>
+                                <a class="dropdown-item" href="#">Emas 13 Karat</a>
+                                <a class="dropdown-item" href="#">Emas 23 Karat</a>
+                                <a class="dropdown-item" href="#">Emas 24 Karat</a>
+                                <a class="dropdown-item" href="#">Emas Antam</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Kalung</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Gelang</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Cincin</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Perhiasan</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Aksesoris</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Berlian</a>
+                        </li>
+                    </ul>
+            </div> 
+        
+        </div>
+
+    </nav>
+
+    </header>
+
+   <!-- Section Intro -->
+
+    <section class="section-intro padding-y-sm">
+        <div class="container">
+
+            <div>
+                <img src="asset/images/carousel/portofolio-2.jpg" class="img-fluid">
+            </div>
+
+        </div> 
+    </section>
+
+   <!-- Section Feature -->
+
+    <section class="section-content padding-y-sm">
+        <div class="container">
+            <article class="card card-body">
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <figure class="item-feature">
+                            <span class="text-secondary"><i class="fa fa-2x fa-award"></i></span>
+                            <figcaption class="pt-3">
+                                <h5 class="title">Dijamin Keasliannya</h5>
+                                <p>Dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                    tempor incididunt ut labore </p>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="col-md-4">
+                        <figure class="item-feature">
+                            <span class="text-secondary"><i class="fa fa-2x fa-landmark"></i></span>
+                            <figcaption class="pt-3">
+                                <h5 class="title">Tabungan Emas</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                </p>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="col-md-4">
+                        <figure class="item-feature">
+                            <span class="text-secondary"><i class="fa fa-2x fa-lock"></i></span>
+                            <figcaption class="pt-3">
+                                <h5 class="title">Cicil Emas</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                </p>
+                            </figcaption>
+                        </figure> <!-- iconbox // -->
+                    </div> <!-- col // -->
+                </div>
+
+            </article>
+
+        </div> 
+    </section>
+
+    <!-- Section Populer -->
+
+    <section class="section-content m-3">
+
+        <div class="container">
+
+            <!-- Heading Content -->
+    
+            <header>
+                <h3>Produk Terpopuler</h3>
+            </header>
+    
+    
+            <div class="row">
+
+                <div class="col-md-3">
+
+                    <div href="#" class="card">
+
+                        <a href="#"> <img class="card-img-top" src="asset/images/cincin-1.jpg"> </a>
+
+                        <div class="card-body">
+                            <a href="#"><h5 class="card-title">Cincin</h5></a>
+
+                            <div class="rating">
+                                <ul class="float-left p-0 mr-3">
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                </ul>
+                                <span class="label-rating text-muted"> 34 terjual</span>
+                                <div class="clearfix"></div>
+                            </div>
+
+                            <button href="#" class="btn btn-block btn-outline">Rp.987.000</button>
+                            <a class="btn btn-block btn-secondary" href="#">Beli</a>
+                        </div>
+
+                    </div>
+                    
+                </div> 
+
+                <div class="col-md-3">
+                
+                    <div href="#" class="card">
+                
+                        <a href="#"> <img class="card-img-top" src="asset/images/cincin-2.jpg"> </a>
+                
+                        <div class="card-body">
+                            <a href="#">
+                                <h5 class="card-title">Cincin 24K</h5>
+                            </a>
+                
+                            <div class="rating">
+                                <ul class="float-left p-0 mr-3">
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                </ul>
+                                <span class="label-rating text-muted"> 34 terjual</span>
+                                <div class="clearfix"></div>
+                            </div>
+                
+                            <button href="#" class="btn btn-block btn-outline">Rp.987.000</button>
+                            <a class="btn btn-block btn-secondary" href="#">Beli</a>
+                
+                        </div>
+                
+                    </div>
+                
+                </div>
+
+                <div class="col-md-3">
+                
+                    <div href="#" class="card">
+                
+                        <a href="#"> <img class="card-img-top" src="asset/images/kalung-emas-1.jpg"> </a>
+                
+                        <div class="card-body">
+                            <a href="#">
+                                <h5 class="card-title">Kalung</h5>
+                            </a>
+                
+                            <div class="rating">
+                                <ul class="float-left p-0 mr-3">
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                </ul>
+                                <span class="label-rating text-muted"> 34 terjual</span>
+                                <div class="clearfix"></div>
+                            </div>
+                
+                            <button href="#" class="btn btn-block btn-outline">Rp.987.000</button>
+                            <a class="btn btn-block btn-secondary" href="#">Beli</a>
+                
+                        </div>
+                
+                    </div>
+                
+                </div>
+
+                <div class="col-md-3">
+                
+                    <div href="#" class="card">
+                
+                        <a href="#"> <img class="card-img-top" src="asset/images/cincin-4.jpg"> </a>
+                
+                        <div class="card-body">
+                            <a href="#">
+                                <h5 class="card-title">Cincin Couple</h5>
+                            </a>
+                
+                            <div class="rating">
+                                <ul class="float-left p-0 mr-3">
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                </ul>
+                                <span class="label-rating text-muted"> 34 terjual</span>
+                                <div class="clearfix"></div>
+                            </div>
+                
+                            <button href="#" class="btn btn-block btn-outline">Rp.987.000</button>
+                            <a class="btn btn-block btn-secondary" href="#">Beli</a>
+                
+                        </div>
+                
+                    </div>
+                
+                </div>
+    
+            </div> 
+    </section>
+
+    <!-- Section New Arrived -->
+
+    <section class="section-content m-3">
+    
+        <div class="container">
+    
+            <!-- Heading Content -->
+    
+            <header>
+                <h3>Produk Terbaru</h3>
+            </header>
+    
+    
+            <div class="row">
+    
+                <div class="col-md-3">
+    
+                    <div href="#" class="card">
+    
+                        <a href="#"> <img class="card-img-top" src="asset/images/cincin-3.jpg"> </a>
+    
+                        <div class="card-body">
+                            <a href="#">
+                                <h5 class="card-title">Cincin Emas Couple</h5>
+                            </a>
+    
+                            <div class="rating">
+                                <ul class="float-left p-0 mr-3">
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                </ul>
+                                <span class="label-rating text-muted"> 34 terjual</span>
+                                <div class="clearfix"></div>
+                            </div>
+    
+                            <button href="#" class="btn btn-block btn-outline">Rp.987.000</button>
+                            <a class="btn btn-block btn-secondary" href="#">Beli</a>
+    
+                        </div>
+    
+                    </div>
+    
+                </div>
+    
+                <div class="col-md-3">
+    
+                    <div href="#" class="card">
+    
+                        <a href="#"> <img class="card-img-top" src="asset/images/cincin-2.jpg"> </a>
+    
+                        <div class="card-body">
+                            <a href="#">
+                                <h5 class="card-title">Cincin 24K</h5>
+                            </a>
+    
+                            <div class="rating">
+                                <ul class="float-left p-0 mr-3">
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                </ul>
+                                <span class="label-rating text-muted"> 34 terjual</span>
+                                <div class="clearfix"></div>
+                            </div>
+    
+                            <button href="#" class="btn btn-block btn-outline">Rp.987.000</button>
+                            <a class="btn btn-block btn-secondary" href="#">Beli</a>
+    
+                        </div>
+    
+                    </div>
+    
+                </div>
+    
+                <div class="col-md-3">
+    
+                    <div href="#" class="card">
+    
+                        <a href="#"> <img class="card-img-top" src="asset/images/kalung-emas-1.jpg"> </a>
+    
+                        <div class="card-body">
+                            <a href="#">
+                                <h5 class="card-title">Kalung</h5>
+                            </a>
+    
+                            <div class="rating">
+                                <ul class="float-left p-0 mr-3">
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                </ul>
+                                <span class="label-rating text-muted"> 34 terjual</span>
+                                <div class="clearfix"></div>
+                            </div>
+    
+                            <button href="#" class="btn btn-block btn-outline">Rp.987.000</button>
+                            <a class="btn btn-block btn-secondary" href="#">Beli</a>
+    
+                        </div>
+    
+                    </div>
+    
+                </div>
+    
+                <div class="col-md-3">
+    
+                    <div href="#" class="card">
+    
+                        <a href="#"> <img class="card-img-top" src="asset/images/cincin-4.jpg"> </a>
+    
+                        <div class="card-body">
+                            <a href="#">
+                                <h5 class="card-title">Cincin Couple</h5>
+                            </a>
+    
+                            <div class="rating">
+                                <ul class="float-left p-0 mr-3">
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                </ul>
+                                <span class="label-rating text-muted"> 34 terjual</span>
+                                <div class="clearfix"></div>
+                            </div>
+    
+                            <button href="#" class="btn btn-block btn-outline">Rp.987.000</button>
+                            <a class="btn btn-block btn-secondary" href="#">Beli</a>
+    
+                        </div>
+    
+                    </div>
+    
+                </div>
+    
+            </div>
+    </section>
+
+    <!-- Section Recommended -->
+
+    <section class="section-content m-3">
+    
+        <div class="container">
+    
+            <!-- Heading Content -->
+    
+            <header>
+                <h3>Rekomendasi</h3>
+            </header>
+    
+    
+            <div class="row">
+    
+                <div class="col-md-3">
+    
+                    <div href="#" class="card">
+    
+                        <a href="#"> <img class="card-img-top" src="asset/images/kalung-emas.jpg"> </a>
+    
+                        <div class="card-body">
+                            <a href="#">
+                                <h5 class="card-title">Kalung Emas 12K</h5>
+                            </a>
+    
+                            <div class="rating">
+                                <ul class="float-left p-0 mr-3">
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                </ul>
+                                <span class="label-rating text-muted"> 34 terjual</span>
+                                <div class="clearfix"></div>
+                            </div>
+    
+                            <button href="#" class="btn btn-block btn-outline">Rp.987.000</button>
+                            <a class="btn btn-block btn-secondary" href="#">Beli</a>
+    
+                        </div>
+    
+                    </div>
+    
+                </div>
+    
+                <div class="col-md-3">
+    
+                    <div href="#" class="card">
+    
+                        <a href="#"> <img class="card-img-top" src="asset/images/cincin-2.jpg"> </a>
+    
+                        <div class="card-body">
+                            <a href="#">
+                                <h5 class="card-title">Cincin 24K</h5>
+                            </a>
+    
+                            <div class="rating">
+                                <ul class="float-left p-0 mr-3">
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                </ul>
+                                <span class="label-rating text-muted"> 34 terjual</span>
+                                <div class="clearfix"></div>
+                            </div>
+    
+                            <button href="#" class="btn btn-block btn-outline">Rp.987.000</button>
+                            <a class="btn btn-block btn-secondary" href="#">Beli</a>
+    
+                        </div>
+    
+                    </div>
+    
+                </div>
+    
+                <div class="col-md-3">
+    
+                    <div href="#" class="card">
+    
+                        <a href="#"> <img class="card-img-top" src="asset/images/kalung-emas-1.jpg"> </a>
+    
+                        <div class="card-body">
+                            <a href="#">
+                                <h5 class="card-title">Kalung</h5>
+                            </a>
+    
+                            <div class="rating">
+                                <ul class="float-left p-0 mr-3">
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                </ul>
+                                <span class="label-rating text-muted"> 34 terjual</span>
+                                <div class="clearfix"></div>
+                            </div>
+    
+                            <button href="#" class="btn btn-block btn-outline">Rp.987.000</button>
+                            <a class="btn btn-block btn-secondary" href="#">Beli</a>
+    
+                        </div>
+    
+                    </div>
+    
+                </div>
+    
+                <div class="col-md-3">
+    
+                    <div href="#" class="card">
+    
+                        <a href="#"> <img class="card-img-top" src="asset/images/emas-antam.jpeg"> </a>
+    
+                        <div class="card-body">
+                            <a href="#">
+                                <h5 class="card-title">Emas Antam</h5>
+                            </a>
+    
+                            <div class="rating">
+                                <ul class="float-left p-0 mr-3">
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                </ul>
+                                <span class="label-rating text-muted"> 34 terjual</span>
+                                <div class="clearfix"></div>
+                            </div>
+    
+                            <button href="#" class="btn btn-block btn-outline">Rp.987.000</button>
+                            <a class="btn btn-block btn-secondary" href="#">Beli</a>
+    
+                        </div>
+    
+                    </div>
+    
+                </div>
+    
+            </div>
+    </section>
+
+   
+    <!-- Section Partner -->
+
+    <section class="section-partner bg padding-y-sm">
+        <div class="container">
+            <header>
+                <h3 >Mitra Kami</h3>
+            </header>
+    
+            <div class="row">
+                <div class="col-2">
+                    <figure class="box item-logo">
+                        <a href="#"><img class="img-thumbnail" src="asset/images/brand/antam.jpg"></a>
+                    </figure> 
+                    <small class="d-flex justify-content-center text-uppercase">Antam</small>
+                </div> 
+
+                <div class="col-2">
+                    <figure class="box item-logo">
+                        <a href="#"><img class="img-thumbnail" src="asset/images/brand/bukalapak.jpg"></a>
+                    </figure>
+                    <small class="d-flex justify-content-center text-uppercase">Bukalapak</small>
+                </div>
+
+                <div class="col-2">
+                    <figure class="box item-logo">
+                        <a href="#"><img class="img-thumbnail" src="asset/images/brand/pegadaian.jpg"></a>
+                    </figure>
+                    <small class="d-flex justify-content-center text-uppercase">Pegadaian</small>
+                </div>
+
+                <div class="col-2">
+                    <figure class="box item-logo">
+                        <a href="#"><img class="img-thumbnail" src="asset/images/brand/ubs.jpg"></a>
+                    </figure>
+                    <small class="d-flex justify-content-center text-uppercase">Ubs</small>
+                </div>
+
+                <div class="col-2">
+                    <figure class="box item-logo">
+                        <a href="#"><img class="img-thumbnail" src="asset/images/brand/pump.jpg"></a>
+                    </figure>
+                    <small class="d-flex justify-content-center text-uppercase">pump</small>
+                </div>
+
+                <div class="col-2">
+                    <figure class="box item-logo">
+                        <a href="#"><img class="img-thumbnail" src="asset/images/brand/buccelati.jpg"></a>
+                    </figure>
+                    <small class="d-flex justify-content-center text-uppercase">buccelati</small>
+                </div>
+                
+                </div> 
+            </div>
+        </div>
+    </section>
+
+    <!-- Section App -->
+
+    <section class="section-app p-5 bg-light mt-3">
+        <div class="container">
+    
+            <h3 class="mb-3">Download Aplikasi</h3>
+    
+            <a href="#"><img src="asset/images/appstore.png" height="40"></a>
+            <a href="#"><img src="asset/images/googleplay.jpg" height="40"></a>
+    
+        </div><!-- container // -->
+    </section>
+
+    <!-- Section Footer -->
+
+    <footer class="section-footer border-top mt-5">
+        <div class="container">
+            <section class="footer-top  padding-y">
+                <div class="row">
+                   
+                    <div class="col-3">
+                        <h5 class="title">Perusahaan</h5>
+                        <ul class="list-unstyled">
+                            <li> <a href="#">Tentang Kami</a></li>
+                            <li> <a href="#">Karir</a></li>
+                            <li> <a href="#">Syarat dan Ketentuan</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-3">
+                        <h5 class="title">Bantuan</h5>
+                        <ul class="list-unstyled">
+                            <li> <a href="#">Kontak</a></li>
+                            <li> <a href="#">Klaim Asuransi</a></li>
+                            <li> <a href="#">Tabungan</a></li>
+                            <li> <a href="#">Info Kredit</a></li>
+                        </ul>
+                    </div >
+                    <div  class="col-3">
+                        <h5 class="title">Akun</h5>
+                        <ul class="list-unstyled">
+                            <li> <a href="#"> Akun Pengguna</a></li>
+                            <li> <a href="#"> Daftar </a></li>
+                            <li> <a href="#"> Pengaturan Akun</a></li>
+                        </ul>
+                    </div >
+                    <div  class="col-3">
+                        <h5 class="title">Sosial Media</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#"> <i class="fab fa-facebook"></i> Facebook </a></li>
+                            <li><a href="#"> <i class="fab fa-twitter"></i> Twitter </a></li>
+                            <li><a href="#"> <i class="fab fa-instagram"></i> Instagram </a></li>
+                            <li><a href="#"> <i class="fab fa-youtube"></i> Youtube </a></li>
+                        </ul>
+                    </div >
+                </div>
+            </section> 
+            <section class="footer-bottom row">
+                <div class="col-md-2">
+                    <p class="text-muted"> &copy; 2020 Toko Emas </p>
+                </div>
+                <div class="col-md-8 text-md-center">
+                    <span class="px-2">info@tokoemas.com</span>
+                    <span class="px-2">+6281 225 707 153</span>
+                    <span class="px-2">Green Lake City M 59, Cipondoh, Tangerang</span>
+                </div>
+                <div class="col-md-2 text-md-right text-muted">
+                    <i class="fab fa-lg fa-cc-visa"></i>
+                    <i class="fab fa-lg fa-cc-paypal"></i>
+                    <i class="fab fa-lg fa-cc-mastercard"></i>
+                </div>
+            </section>
+        </div>
+    </footer>
+
+<script src="asset/js/jquery-3.5.1.full.js"></script>
+<script src="asset/js/popper.min.js"></script>
+<script src="asset/js/bootstrap.min.js"></script>
+
+</body>
+</html>
