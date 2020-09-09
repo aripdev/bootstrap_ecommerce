@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Link Smooth</title>
+    <style>
+        .root{
+            border: 1px solid red;
+            height: 1200px;
+        }
+    </style>
+</head>
+<body>
+    <div id="master" class="root">
+        <a href="#second" class="link-smooth">Second</a>
+    </div>
+
+    <div id="second" class="root">
+        <a href="#master" class="link-smooth">master</a>
+    </div>
+
+    <script src="asset/js/jquery-3.5.1.full.js"></script>
+
+    <script>
+        $('.link-smooth').click(function(e){
+            
+             if (this.hash !== "") {
+                // Prevent default anchor click behavior
+                event.preventDefault();
+
+                // Store hash
+                var hash = this.hash;
+
+                // Using jQuery's animate() method to add smooth page scroll
+                // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 800, function () {
+
+                    // Add hash (#) to URL when done scrolling (default click behavior)
+                    window.location.hash = hash;
+                });
+            } // End if
+        });
+    </script>
+</body>
+</html>
