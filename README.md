@@ -1,3 +1,3 @@
 # E-Commerce theme with bootstrap
 
-[Demo Project](https://aripdevel.github.io/bootstrap_ecommerce/index)
+[Demo Project](https://aripdev.github.io/bootstrap_ecommerce/index)
